@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;0,900;1,400;1,500;1,700;1,800&display=swap');
+/* font-family: 'Work Sans', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+.Container{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+/* Header area style */
+.header-area{
+    background-image: url("images/banner/banner1.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.header-info-rapper{
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding: 216px 0;
+}
+.header-info h2{
+    color: #151414;
+    font-size: 65px;
+    font-weight: 700;
+    width: 525px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+.header-info p{
+    width: 494px;
+    color: #444343;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    padding-right: 0;
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 50px;
+}
+.header-info button{
+    padding: 20px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    transition: 0.3s;
+    border: 1px solid transparent;
+}
+.header-info button:hover{
+    background: #ffffff;
+    color: #000000;
+    border-color: #F15B22;
+    
+}
+
+
+/* Failure area style */
+.failuer-area-rapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 120px auto;
+    gap: 80px;
+}
+.failuer-text{
+    margin-top: 150px;
+}
+.failuer-text h3{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    width: 288px;
+    margin-bottom: 28px;
+}
+.failuer-text p{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    width: 416px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.failuer-list ul li{
+    list-style: none;
+    margin-bottom: 8px;
+}
+.failuer-list ul li i{
+    transition: 0.2s;
+}
+.failuer-list ul li a{
+    text-decoration: none;
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 5px;
+    transition: 0.2s;
+}
+.failuer-list ul li:hover i,.failuer-list ul li:hover a{
+    color: aqua;
+}
+
+
+/* My plans area style */
+.myplane-title{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.myplane-title h3{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+.myplanes-rapper{
+    display: flex;
+    justify-content: space-between;
+}
+.plans{
+    align-items: center;
+    text-align: center;
+}
+.plans h4{
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+.plans p{
+    color: #737272;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.planes-bottom-rapper{
+    margin: 150px 0;
+    background-image: url(images/banner/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+}
+.planes-bottom{
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%);
+    padding: 150px 120px;
+}
+.planes-bottom h2{
+    width: 459px;
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.planes-bottom button{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border: 1px solid #F15B22;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.planes-bottom button:hover{
+    background: aqua;
+}
+
+/* Future area style */
+.footer-rapper{
+    background: #151414;
+    padding: 130px 0;
+}
+.future-area{
+    display: flex;
+    justify-content: space-between;
+}
+.future-left h2{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.future-left p{
+    width: 485px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.future-left span{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+.icons-rapper{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+.icon img{
+    margin-right: 20px;
+}
+.future-right h2{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;   
+}
+.future-right input{
+    color: #F3F3F3;
+    font-size: 18px;
+    font-weight: 400;
+    background: #151414;
+    padding: 20px;
+    display: block;
+    width: 325px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    margin-bottom: 15px;
+}
+.future-right button{
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FFF;
+    padding: 15px 35px;
+    transition: 0.3s;
+}
+.future-right button:hover{
+    background: #F15B22;
+    color: #ffffff;
+}
